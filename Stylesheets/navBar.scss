@@ -1,0 +1,81 @@
+$main-font: Helvetica;
+
+
+nav {
+  background-color: #4E4A49;
+  box-shadow: 1px 0px 5px #6e6e6e;
+  font-family: $main-font;
+}
+
+.navbar-brand {
+  color: #A76AD6 !important;
+}
+
+.navbar:hover {
+  color: red;
+}
+
+.nav-lnk:hover {
+  color: #ff3300;
+
+}
+
+.btn {
+  background-color: #3BB3F1;
+}
+
+.btn:hover {
+  background-color: #3498ca;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.form-control {
+  box-shadow: none !important;
+  outline: none !important;
+  width: 10% !important;
+}
+
+.nav-item a {
+  color: #a8a8a8 !important;
+  transition: 0.3s;
+}
+
+.nav-item a:hover {
+  color: #cacaca !important;
+  animation: fadeIn ease 10s;
+}
+
+#login {
+  padding-right: 15px;
+}
+
+.input-group.md-form.form-sm.form-1.pl-0 {
+  width: 25% !important;
+  outline: none !important;
+}
+
+.input-group-text.lighten-3{
+  background-color: #3BB3F1;
+  box-shadow: none;
+}
+
+.input-group-text.lighten-3:focus{
+  background-color: #3BB3F1;
+  box-shadow: none;
+  outline: none;
+}
+
+.input-group-text.lighten-3:hover{
+  cursor: pointer;
+}
+
+
+@media (max-width: 992px) {
+  .input-group.md-form.form-sm.form-1.pl-0 {
+    width: 100% !important;
+    outline: none !important;
+  }
+}
